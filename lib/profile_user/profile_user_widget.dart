@@ -826,7 +826,7 @@ class _ProfileUserWidgetState extends State<ProfileUserWidget> {
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: FFButtonWidget(
                   onPressed: _signOut,
-                  text: 'Cerrar Sesión',
+                  text: 'Log Out',
                   icon: Icon(Icons.logout_rounded, size: 20),
                   options: FFButtonOptions(
                     width: double.infinity,
