@@ -260,7 +260,7 @@ class _QRVerificationWidgetState extends State<QRVerificationWidget> {
                                                                 return Container(
                                                                   padding: const EdgeInsets.all(20),
                                                                   child: const Text(
-                                                                    'No se pudo cargar la imagen 😢',
+                                                                    'The image could not be loaded',
                                                                     style: TextStyle(color: Colors.white),
                                                                     textAlign: TextAlign.center,
                                                                   ),
@@ -363,7 +363,7 @@ class _QRVerificationWidgetState extends State<QRVerificationWidget> {
                       child: Column(
                         children: [
                           Text(
-                            '📱 Cómo escanear',
+                            '📱 How to scan',
                             style: FlutterFlowTheme.of(context).bodyLarge.override(
                                   fontFamily: 'Karla',
                                   letterSpacing: 0.0,
@@ -372,9 +372,9 @@ class _QRVerificationWidgetState extends State<QRVerificationWidget> {
                           ),
                           SizedBox(height: 8),
                           Text(
-                            '• Apunta a un código QR de vendedor PriceQR\n'
-                            '• Mantén estable el dispositivo\n'
-                            '• El escaneo es automático',
+                            '• Point at the PriceQR sellers QR Code\n'
+                            '• Keep the device steady\n'
+                            '• Scanning is automatic',
                             style: FlutterFlowTheme.of(context).bodyMedium.override(
                                   fontFamily: 'Karla',
                                   color: FlutterFlowTheme.of(context).secondaryText,
